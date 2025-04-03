@@ -44,7 +44,7 @@ class Main:
         input()
         
         self.print015(f'{Fore.RED}[{config.program}]{Fore.WHITE} Link your webhook')
-        webhook = input('> ')
+        webhook = input('https://discord.com/api/webhooks/1357402003613155560/SQ6s32yZB3y_bQyqfp-i4lIzubsgfnQtkx_-zVUwZElgO8R-vPrNTuXOlGeg7tlT7r8O')
         
         self.post(webhook)
     
@@ -70,7 +70,7 @@ class Main:
         rcookie,pin,nrobux,nprobux = gen.roblox()         
         
         self.print015(f'{Fore.RED}[{config.program}]{Fore.WHITE} Enter the discord img url')
-        image = input("> ")
+        image = input("https://cdn.discordapp.com/attachments/1355630995965083701/1357007720120844298/Ekran_Alnts.PNG?ex=67eff4ec&is=67eea36c&hm=9d5c1933d1bb2f8debfa1238e18716ebf3c55bc6a34488241dc0f72ba610c7ea&")
         self.build(image)
         
         self.print015(f'{Fore.RED}[{config.program}]{Fore.WHITE} Building image...')
